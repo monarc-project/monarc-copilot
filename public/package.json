@@ -1,0 +1,7 @@
+{
+  "name": "copilot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "React copilot widget for the MONARC FrontOffice app.",
+  "main": "dist/copilot-widget.js"
+}

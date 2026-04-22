@@ -1,0 +1,48 @@
+{
+    "name": "monarc-project/monarc-copilot",
+    "description": "MONARC Copilot module for FrontOffice",
+    "type": "library",
+    "license": "AGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Ruslan Baidan",
+            "email": "ruslan.baidan@nc3.lu"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "ext-curl": "*",
+        "laminas/laminas-mvc": "^3.6",
+        "laminas/laminas-mvc-middleware": "^2.2",
+        "laminas/laminas-permissions-rbac": "^3.0",
+        "monarc/frontoffice": "^2.13"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5",
+        "laminas/laminas-test": "^4.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "Monarc\\Copilot\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Monarc\\CopilotTest\\": "tests/"
+        }
+    },
+    "extra": {
+        "laminas": {
+            "module": "Monarc\\Copilot"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "laminas/laminas-dependency-plugin": true
+        }
+    },
+    "prefer-stable": true
+}
