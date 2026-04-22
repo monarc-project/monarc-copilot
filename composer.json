@@ -1,14 +1,25 @@
 {
-    "name": "monarc-project/monarc-copilot",
+    "name": "monarc/copilot",
     "description": "MONARC Copilot module for FrontOffice",
+    "keywords": [
+        "monarc",
+        "copilot",
+        "laminas",
+        "risk-analysis"
+    ],
     "type": "library",
     "license": "AGPL-3.0-or-later",
+    "homepage": "https://github.com/monarc-project/monarc-copilot",
     "authors": [
         {
             "name": "Ruslan Baidan",
             "email": "ruslan.baidan@nc3.lu"
         }
     ],
+    "support": {
+        "issues": "https://github.com/monarc-project/monarc-copilot/issues",
+        "source": "https://github.com/monarc-project/monarc-copilot"
+    },
     "require": {
         "php": "^8.1",
         "ext-json": "*",
