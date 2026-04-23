@@ -22,6 +22,7 @@ return [
             'baseUrl' => 'http://127.0.0.1:4000',
             'endpointPath' => '/chat/completions',
             'model' => 'llama-70b',
+            'apiKey' => '',
             'jsonMode' => true,
             'timeout' => 20,
         ],
